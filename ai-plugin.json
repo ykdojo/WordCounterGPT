@@ -1,0 +1,18 @@
+{
+  "schema_version": "v1",
+  "name_for_human": "Word Counter API",
+  "name_for_model": "wordCounterAPI",
+  "description_for_human": "Plugin for counting characters and words in a given text.",
+  "description_for_model": "Plugin for counting characters and words in a given text.",
+  "auth": {
+    "type": "none"
+  },
+  "api": {
+    "type": "openapi",
+    "url": "http://localhost:8000/openapi.json",
+    "is_user_authenticated": false
+  },
+  "logo_url": "",
+  "contact_email": "",
+  "legal_info_url": ""
+}
