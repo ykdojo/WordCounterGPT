@@ -1,6 +1,17 @@
 # Word Counter API
 
-A FastAPI application that serves as a ChatGPT plugin for counting characters and words in a given text.
+We're excited to announce the launch of our first free and open-source ChatGPT plugin that serves a useful purpose!
+
+## What Does It Do?
+This plugin is designed for counting characters and words in a given text.
+
+## Why Create This Plugin?
+ChatGPT's base model isn't always great at accurately counting characters and words, so we created this plugin to address that need.
+
+## Use Cases
+- Check the word count of your essays or articles.
+- Verify the character count of your tweets to ensure they fit within the limit.
+- Use this plugin as a template to create your own ChatGPT plugins.
 
 ## Setup and Run
 
