@@ -13,6 +13,9 @@ ChatGPT's base model isn't always great at accurately counting characters and wo
 - Verify the character count of your tweets to ensure they fit within the limit.
 - Use this plugin as a template to create your own ChatGPT plugins.
 
+## Demo Video
+Check out this [demo video on Twitter](https://twitter.com/ykdojo/status/1646060716833783808) to see how you might want to use the Word Counter API plugin.
+
 ## Setup and Run
 
 1. Navigate to the root directory of the Word Counter API.
