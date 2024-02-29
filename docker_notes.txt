@@ -1,0 +1,11 @@
+docker ps
+
+docker stats
+
+docker stop wordcountergpt-container
+
+docker start wordcountergpt-container
+
+apt update
+
+apt install vim
