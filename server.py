@@ -1,6 +1,6 @@
 from fastapi import FastAPI, File
 from fastapi.middleware.cors import CORSMiddleware
-from fastapi.responses import JSONResponse
+from fastapi.responses import JSONResponse, PlainTextResponse
 from pydantic import BaseModel
 import json
 
@@ -22,6 +22,10 @@ app.add_middleware(
 # Load the manifest content from the ai-plugin.json file
 with open('ai-plugin.json', 'r') as manifest_file:
     manifest_content = json.load(manifest_file)
+
+@app.get("/", response_class=PlainTextResponse)
+def intro():
+    return "Welcome to WordCounterGPT"
 
 # Serve the manifest file at the /.well-known/ai-plugin.json path
 @app.get("/.well-known/ai-plugin.json")
